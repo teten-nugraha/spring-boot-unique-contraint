@@ -1,5 +1,6 @@
 package id.ten.checkuniquecontraint.domain;
 
+import id.ten.checkuniquecontraint.validator.UniqueEmail;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -37,6 +38,7 @@ public class Student implements Serializable {
     @Column(name = "email", unique = true, nullable = false)
     @NotEmpty(message = "email is required")
     @NotNull(message = "email not be null")
+    @UniqueEmail
     private String email;
 
 }
