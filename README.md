@@ -10,11 +10,9 @@ Sebelum mencoba repo ini alahkan baiknya dalam local host anda sudah terinstall 
 
 1. OpenJDK 11
 
-2. Kafka
+2. MySQL
 
-3. Docker
-
-4. Java IDE
+3. Java IDE
 
    
 
@@ -46,3 +44,4 @@ Sebelum mencoba repo ini alahkan baiknya dalam local host anda sudah terinstall 
 
 
 ![failed](images/failed.PNG "postgreadmin-login")
+
